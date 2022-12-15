@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(8, 71, 122);
+    background-color: rgb(6, 76, 133);
     color: white;
 }
 
@@ -14,10 +14,11 @@ h1{
 }
 
 .changetable{
-    width: 80%;
+    width: 100%;
 }
 
 label , input{
-    max-width: 100%;
+    width: 100%;
     margin: auto;
 }
+
