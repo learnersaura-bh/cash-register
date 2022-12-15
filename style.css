@@ -1,9 +1,23 @@
-*{
+body{
+    background-color: rgb(8, 71, 122);
+    color: white;
+}
 
+h1{
+    text-align: center;
 }
 
 .container{
-    display : flex;
-    flex-direction: column;
+    width: 50%;
+    margin: auto;
     
+}
+
+.changetable{
+    width: 80%;
+}
+
+label , input{
+    max-width: 100%;
+    margin: auto;
 }
