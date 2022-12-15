@@ -8,7 +8,7 @@ var notesWeHave = [ 2000, 500, 100, 20, 10 ,5 , 1];
 
 btnCheck.addEventListener("click" , function clickEventHandler(){
     if(billAmount.value>0){
-        if(cashAmount.value > billAmount.value){
+        if(cashAmount.value >= billAmount.value){
  const cashToBeReturned = cashAmount.value - billAmount.value;
  calculateChange(cashToBeReturned);
         }
